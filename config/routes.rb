@@ -1,5 +1,10 @@
 Knuckleball::Application.routes.draw do
+  get "main/index"
+  get "main/contact"
+  get "main/about"
   resources :players
+
+  root 'main#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
