@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  ERA: 1.5
+  FIP: 1.5
+  Comments: MyText
+
+two:
+  first_name: MyString
+  last_name: MyString
+  ERA: 1.5
+  FIP: 1.5
+  Comments: MyText
